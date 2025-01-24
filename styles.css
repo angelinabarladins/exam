@@ -248,3 +248,21 @@ header .logo3 {
     padding: 0 1.25rem;
     position: relative;
 }
+
+.oval-stripe-about {
+    position: absolute;
+    padding: 0.625rem 1.875rem;
+    border: 2px solid var(--white-color);
+    border-radius: 3.125rem;
+    background-color: var(--primary-color);
+    z-index: 10;
+    left: 1rem; 
+     top: 1.25rem;
+    margin: 0;
+}
+.oval-stripe-about h2 {
+    font-family: var(--font-bold);
+    font-size: 1.75rem;
+    color: var(--white-color);
+    margin: 0;
+}
