@@ -73,3 +73,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    font-family: var(--font-regular);
+}
+
+.container {
+    width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
