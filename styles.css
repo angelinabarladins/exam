@@ -227,3 +227,24 @@ header .logo3 {
     width: 1.8rem;
     height: 1.8rem;
 }
+
+.white-rectangle {
+    background-color: var(--white-color);
+    padding: 5rem 1.25rem 7.5rem;
+    margin-top: -0.875rem;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    overflow: visible;
+    height: 95vh;
+    width: 100%;
+    box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.6);
+}
+
+.rectangle-content {
+    width: 100%;
+    height: 100%;
+    padding: 0 1.25rem;
+    position: relative;
+}
