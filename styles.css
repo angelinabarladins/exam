@@ -17,3 +17,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'gogol_regular';
+    src: url('fonts/gogol_regular.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestThin1602-hint';
+    src: url('fonts/OnestThin1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestRegular1602-hint';
+    src: url('fonts/OnestRegular1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestMedium1602-hint';
+    src: url('fonts/OnestMedium1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestLight1602-hint';
+    src: url('fonts/OnestLight1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestExtraBold1602-hint';
+    src: url('fonts/OnestExtraBold1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestBold1602-hint';
+    src: url('fonts/OnestBold1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OnestBlack1602-hint';
+    src: url('fonts/OnestBlack1602-hint.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
