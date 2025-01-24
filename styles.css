@@ -1,1 +1,13 @@
-
+:root {
+    --primary-color: #496937;
+    --secondary-color: #E7632A;
+    --text-color: #333;
+    --white-color: #fff;
+    --light-gray: #f4f4f4;
+    --font-regular: 'OnestRegular1602-hint', sans-serif;
+    --font-medium: 'OnestMedium1602-hint', sans-serif;
+    --font-light: 'OnestLight1602-hint', sans-serif;
+    --font-bold: 'OnestBold1602-hint', sans-serif;
+    --font-gogol: 'gogol_regular', sans-serif;
+    --container-width: 80%;
+}
