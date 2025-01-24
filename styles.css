@@ -441,3 +441,14 @@ header .logo3 {
     margin-left: 32rem; 
     padding-right: 5rem; 
 }
+
+.bottom-image {
+    margin-top: -4.375rem;
+    text-align: center;
+}
+
+.bottom-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.9375rem;
+}
