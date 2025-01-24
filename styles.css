@@ -356,7 +356,16 @@ header .logo3 {
 }
   
 .bottom-left-image img {
-      width: 50rem;
-      height: auto;
-      border-radius: 0.9375rem;
+    width: 50rem;
+    height: auto;
+    border-radius: 0.9375rem;
+}
+
+.small-images {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
 }
