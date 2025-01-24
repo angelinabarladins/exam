@@ -164,3 +164,66 @@ header .logo3 {
     right: 1rem; 
     margin-top: 0;
 }
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('images/sharpei.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: var(--white-color);
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.hero-content {
+    max-width: 56.25rem;
+    padding: 1.25rem;
+}
+
+.hero-content h1 {
+    margin: 0 0 0.625rem;
+    font-family: var(--font-bold);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-content h1 .subtitle {
+    font-family: var(--font-gogol);
+    font-size: 4.375rem;
+}
+
+.hero-content .description {
+    margin: 0 0 2.525rem;
+    font-family: var(--font-light);
+    font-size: 1.875rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+}
+
+.hero-content button {
+    padding: 1rem 4rem;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    font-family: var(--font-regular);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    min-width: 18.75rem;
+}
+
+.hero-content button .paw-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
