@@ -347,3 +347,16 @@ header .logo3 {
     padding: 0.3125rem 0.625rem;
     border-radius: 0.3125rem;
 }
+
+.bottom-left-image {
+    position: absolute;
+    left: -1rem;
+    top: 31.5rem;
+    z-index: 10;
+}
+  
+.bottom-left-image img {
+      width: 50rem;
+      height: auto;
+      border-radius: 0.9375rem;
+}
