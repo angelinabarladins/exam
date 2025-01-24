@@ -260,9 +260,48 @@ header .logo3 {
      top: 1.25rem;
     margin: 0;
 }
+
 .oval-stripe-about h2 {
     font-family: var(--font-bold);
     font-size: 1.75rem;
     color: var(--white-color);
+    margin: 0;
+}
+
+.passion-text {
+    font-family: var(--font-bold);
+    font-size: 4rem;
+    color: var(--white-color);
+    margin-bottom: -1.5625rem;
+}
+
+.care-text {
+    font-family: var(--font-gogol);
+    font-size: 4rem;
+    color: var(--white-color);
+    margin-bottom: -2.8125rem;
+}
+
+.principles-text {
+    font-family: var(--font-bold);
+    font-size: 4rem;
+    color: var(--white-color);
+    margin-bottom: -2.5rem;
+}
+
+.our-work-text {
+    font-family: var(--font-bold);
+    font-size: 4rem;
+    color: var(--white-color);
+    margin-bottom: 1.25rem;
+}
+
+.description-text {
+    font-family: var(--font-light);
+    font-size: 1.5625rem;
+    color: var(--white-color);
+    line-height: 1.6;
+    text-align: left;
+    max-width: 37.5rem;
     margin: 0;
 }
