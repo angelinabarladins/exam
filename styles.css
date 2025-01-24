@@ -544,3 +544,96 @@ header .logo3 {
     margin-top: 1.25rem;
     text-align: left;
 }
+.services-section {
+    margin-top: 3.75rem;
+    text-align: left;
+    padding: 0 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+
+.services-description {
+    flex: 1; 
+    text-align: left; 
+}
+
+.services-description p {
+    font-family: var(--font-bold); 
+    font-size: 4.375rem; 
+    color: var(--white-color); 
+    line-height: 1.2; 
+    margin: 0;
+}
+
+.oval-stripe-services {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    border: 2px solid var(--white-color);
+    border-radius: 3.125rem;
+    background-color: var(--primary-color);
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+    align-self: flex-start;
+    left: 1rem;
+}
+
+.oval-stripe-services h2 {
+    font-family: var(--font-bold);
+    font-size: 1.75rem;
+    color: var(--white-color);
+    margin: 0;
+}
+
+.services-text {
+    position: absolute;
+    top: 1.3rem;   
+    left: 35rem;   
+}
+
+.services-line1 {
+    font-family: var(--font-bold);
+    font-size: 3.6rem;
+    color: var(--white-color);
+    margin: 0;
+    display: inline-block; 
+}
+
+.services-line2, .services-line3 {
+    font-size: 3.6rem;
+    color: var(--white-color);
+    margin: 0;
+    display: block; 
+    margin-bottom: 0rem; 
+}
+
+.services-line2 {
+    font-family: var(--font-gogol);
+}
+
+.services-line3 {
+    font-family: var(--font-bold);
+}
+
+.services-line4 {
+    font-family: var(--font-bold);
+    font-size: 3.6rem;
+    color: var(--white-color);
+    margin-bottom: 10rem;
+    display: block;  
+}
+
+.services-image {
+    position: absolute;
+    left: 0;
+    bottom: 3.125rem;
+    z-index: 20;
+    transform: translateX(-10%);
+    order: 2; 
+    align-self: flex-end; 
+    margin-bottom: 0; 
+    position: absolute; 
+    right: 0; 
+    bottom: 0; 
+}
