@@ -305,3 +305,45 @@ header .logo3 {
     max-width: 37.5rem;
     margin: 0;
 }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1.25rem;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 0 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5625rem;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.grid-item.wide {
+    grid-column: span 2;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-item p {
+    position: absolute;
+    bottom: 0.625rem;
+    left: 0.625rem;
+    color: var(--white-color);
+    font-family: var(--font-bold);
+    font-size: 1.125rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.3125rem;
+}
